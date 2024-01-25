@@ -35,8 +35,8 @@ const imageElement = document.getElementById('home');
 // Adding Content to the Document
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
-imageElement.setAttribute('src', profilePicture);
-imageElement.setAttribute('alt', `Profile image of ${fullName}`);
+imageElement.setAttribute('w2-task/images/image.me.jpg', profilePicture);
+imageElement.setAttribute('Image of Me', `Profile image of ${fullName}`);
 
 // Arrays
 let favoriteFoods = ['Fried Rice', 'Chicken', 'Fried Plantain'];
