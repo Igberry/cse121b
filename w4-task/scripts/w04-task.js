@@ -63,7 +63,7 @@ document.getElementById("photo").src = myProfile.photo;
 // Assign the value of the name property as the alt attribute of the HTML <img> with an ID of 'photo'
 document.getElementById("photo").alt = myProfile.name;
 
-// For each favorite food, create an HTML <li> element and append it to the <ul> with an ID of 'favorite-foods'
+// For each favorite food, create an HTML <ul> element and append it to the <ul> with an ID of 'favorite-foods'
 myProfile.favoriteFoods.forEach(function(food) {
   let ul = document.createElement('ul');
   ul.textContent = food;
