@@ -29,13 +29,13 @@ let profilePicture = 'images/image.me.jpg';
 // Set HTML Element Variables
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
-const yearElement = document.querySelector('#year');
+const yearElement = document.querySelector('year');
 const imageElement = document.getElementById('home');
 
 // Adding Content to the Document
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
-imageElement.setAttribute('w2-task/images/image.me.jpg', profilePicture);
+imageElement.setAttribute('images/image.me.jpg', profilePicture);
 imageElement.setAttribute('Image of Me', `Profile image of ${fullName}`);
 
 // Arrays
