@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function fetchRecipes() {
     const apiKey = 'd4564cdf8253475587088f79aa18be9f';
-    const apiUrl = `https://api.spoonacular.com/recipes/random?number=5&apiKey=${apiKey}`;
+    const apiUrl = `https://api.spoonacular.com/recipes/random?number=20&apiKey=${apiKey}`;
     
     try {
         const response = await fetch(apiUrl);
